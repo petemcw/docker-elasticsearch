@@ -1,5 +1,5 @@
 # this image re-bundles the Docker image from the upstream provider, Elastic.
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.17.9@sha256:59b37f77bd8b015d5b60f75bebb22d06028f7f15036f9d3559d2b7c16ece74db
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.3@sha256:739ec9d428869f16e9e02247d5082849ebb4302c87e0abf9f70971cbb40c3bab
 
 # environment
 LABEL maintainer="petemcw@petemcw.dev"
